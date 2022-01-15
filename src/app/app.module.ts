@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { HelloWorldComponent } from './hello-world.component';
 import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialDesign } from './material/material';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -13,7 +16,12 @@ import { RegisterComponent } from './auth/register/register.component';
     LoginComponent,
     RegisterComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MaterialDesign,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
