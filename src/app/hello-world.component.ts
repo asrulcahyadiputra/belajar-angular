@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
   //   <p>Component Angular Pertama</p>
   // `,
 })
-export class HelloWorldComponent {}
+export class HelloWorldComponent {
+  judul = 'Hello World';
+  description = 'Binding Data';
+}
