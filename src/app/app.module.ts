@@ -4,8 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HelloWorldComponent } from './hello-world.component';
+import { LoginComponent } from './auth/login/login.component';
+import { RegisterComponent } from './auth/register/register.component';
 @NgModule({
-  declarations: [AppComponent, HelloWorldComponent],
+  declarations: [
+    AppComponent,
+    HelloWorldComponent,
+    LoginComponent,
+    RegisterComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
