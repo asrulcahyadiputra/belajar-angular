@@ -11,4 +11,5 @@ import { Component } from '@angular/core';
 export class HelloWorldComponent {
   judul = 'Hello World';
   description = 'Binding Data';
+  gambar = 'assets/angular.png';
 }
